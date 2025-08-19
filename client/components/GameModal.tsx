@@ -11,12 +11,14 @@
        placeholder: `def find_max(numbers):
      # Write your solution here
 -    return max(numbers)`
+     }
+   }
 +    if not numbers:
 +        return None
 +    return max(numbers)`
      },
      'Java Algorithm Race': {
-       problem: `Write a Java method that reverses a string:
+       problem: \`Write a Java method that reverses a string:
  
  public class Solution {
      public String reverseString(String str) {
@@ -26,13 +28,13 @@
  }
  
  # Example: reverseString("hello") should return "olleh"`,
-       placeholder: `public String reverseString(String str) {
+       placeholder: \`public String reverseString(String str) {
      // Write your solution here
      return new StringBuilder(str).reverse().toString();
  }`
      },
      'Frontend Debug Master': {
-       problem: `Fix the CSS bug in this code to center the text:
+       problem: \`Fix the CSS bug in this code to center the text:
  
  <div class="container">
      <p>This text should be centered</p>
